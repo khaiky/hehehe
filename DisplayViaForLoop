@@ -1,0 +1,27 @@
+package displayViaforloop;
+
+public class DisplayViaForLoop {
+    
+    public static void main(String[] args) {
+        
+        //declaring variable to array
+        
+        String[] favoriteSongName = {"Campfire", "Sagip", "Palagi", "Blue", "The most beautiful thing"};
+        
+        //procedure 
+        
+        for (int i = 0; i < favoriteSongName.length; i++){
+            System.out.println(favoriteSongName[i]);
+        }
+    }
+    
+}
+
+//output
+/*
+Campfire
+Sagip
+Palagi
+Blue
+The most beautiful thing
+*/

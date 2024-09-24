@@ -1,0 +1,42 @@
+package Simple_implementation;
+
+
+public class simple_implementation {
+    public static void main(String[] args){
+        
+        //declare variable inside the array
+    
+    String [] names = {"dk", "wonwoo","hoshi","hannie"};
+    
+    //printing names using the index inside the array
+      System.out.println(names[1]);
+      System.out.println(names[2]);
+      System.out.println(names[0]);
+          
+      
+     //output
+     /*
+     wonwoo
+     hoshi
+     dk
+     */
+     
+     int [] num = {10,20,30,40,50};
+     
+     //procedure
+     
+     System.out.println("Sum :" + (num[1] + num[2]));
+     System.out.println("Difference :" + (num[3] - num[2]));
+     System.out.println("Product :" + (num[1] * num[2]));
+     System.out.println("Quotient :" + (num[1] / num[2]));
+     
+     
+     //output
+     /*
+     Sum : 50
+     Difference : 10
+     Product : 600
+     Quotient : 0
+     */
+      }
+}
