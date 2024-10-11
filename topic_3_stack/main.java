@@ -12,7 +12,7 @@ public class Main {
        
        Stack stack = new Stack(5);
 
-       System.out.println("Hello there!");
+       System.out.println("Hello!");
        
        while(true) {
            System.out.println("Choose what you want to do: "
@@ -40,11 +40,11 @@ public class Main {
                      stack.size();
                      break;   
             case 4:
-                     System.out.println("Thank you, and comeback and run it again!!");
+                     System.out.println("Thank you,Come Again!!");
                      System.exit(0);
                      break;
             default:
-                        System.out.println("Invalid choice. Please select a valid option.");    
+                        System.out.println("Error. Please select a valid option.");    
         }    
        }
    }       
